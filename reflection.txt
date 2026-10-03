@@ -1,0 +1,33 @@
+Stack Mechanics
+
+Describe what you observed when running the recursive factorial and Fibonacci functions. How did the print statements show the stack growing and shrinking?
+
+
+What happened when you ran the stack overflow demonstration? What error did you see?
+
+
+Based on what you learned, explain what's actually stored on the stack each time you call a function (parameters, return address, local variables).
+
+
+
+
+Recursion Costs
+
+Compare the stack depth you observed for factorial versus Fibonacci with the same input value. Why does Fibonacci use more stack space?
+
+
+Why does Python limit recursion depth? What would happen without that limit based on your stack overflow experience?
+
+
+
+
+Function Pointers and Callbacks
+
+Explain how function pointers enable callbacks. How does passing a function as a parameter let you write more flexible code?
+
+
+Give one real-world example where callback patterns are useful (GUI event handlers, signal processing, etc.).
+
+
+
+Why might systems programmers use callbacks even though function pointers are less readable than direct function calls?
