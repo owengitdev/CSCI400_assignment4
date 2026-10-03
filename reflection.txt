@@ -1,33 +1,43 @@
 Stack Mechanics
 
 Describe what you observed when running the recursive factorial and Fibonacci functions. How did the print statements show the stack growing and shrinking?
-
+When I see while the code is running the recursive factorial and Fibonacci function is that it can printed statements in which shows which stacks is shrinking or growing 
+within the callbacks. I see that numbers are being put into different functions.  I see that numbers are either going down or up from the terminal.
 
 What happened when you ran the stack overflow demonstration? What error did you see?
 
+When i ran the stack overflow demonstration, I see that the stacks are being overwhelmed so much that I can't even keep up. I believe that running the stack overflow demonstration
+is not the best way to see what the data prints out. Without that, I see that numbers are being placed correctly with their respectice sections.
 
 Based on what you learned, explain what's actually stored on the stack each time you call a function (parameters, return address, local variables).
-
+When i learned after coding, I see that some numbers are being return into respective functions. Some of the return address are printed the accurate numbers.
+What i see being fully stored is the data from the values of factorials, I see the callback numbers being placed in orders and shows the score, level and health callback value.
 
 
 
 Recursion Costs
 
 Compare the stack depth you observed for factorial versus Fibonacci with the same input value. Why does Fibonacci use more stack space?
-
+I see that stack depth that i mostly observed the input was printed from the depth from small to large. Fibonacci is much different since the terminal results printed
+from Fibonacci(5) to 0 and again from 0 to 1. The Max depth have reached up to 4. 
 
 Why does Python limit recursion depth? What would happen without that limit based on your stack overflow experience?
-
+Python have limited recursion depth since I believe the coding language wanted to prevented stack overflow from
+crashing the program. It only allows up to 1000 nest calls mostly by default. So there are general limits but however in C#, the limit is over 1000 nest calls. If there is no 
+limit, I believe that the program will keep crashing if the user keep running the code without first checking. 
 
 
 
 Function Pointers and Callbacks
 
 Explain how function pointers enable callbacks. How does passing a function as a parameter let you write more flexible code?
-
+Functions pointers enable callsback since they can process the arrays with the numbers. I think that callbacks are very curcial in order to print 
+out some perfect results. Passing a function as a parameter is the best thing for programmers since they write flexible code and the results will be perfect. 
 
 Give one real-world example where callback patterns are useful (GUI event handlers, signal processing, etc.).
-
+The one real-world example where callback patterns can be helpful for traffic lights within games, uploading videos and loading screens. 
 
 
 Why might systems programmers use callbacks even though function pointers are less readable than direct function calls?
+Programmers use callsback in order defer work to another part since it might to diffcult
+without changing the core code. Callback is the best thing in which is better than function pointers that are not readable than direct functions calls. 

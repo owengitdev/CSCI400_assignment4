@@ -297,7 +297,8 @@ int main() {
     printf("\n--- Part 3: Stack Overflow Demo (comment out after testing!) ---\n");
     // TODO: Call infinite_recursion (will crash - that's expected)
     // printf("Attempting infinite recursion...\n");
-    // infinite_recursion(0);  // WILL CRASH - comment out after observing!
+    // infinite_recursion(0);  // WILL CRASH - comment out after observing! 
+    // Did this test, Printed all so many Call with numbers
     
     printf("\n--- Part 3: Safe Recursion (Fixed Version) ---\n");
     // TODO: Call safe_recursion with a reasonable max depth
